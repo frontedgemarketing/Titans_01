@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#000;
+}
+canvas {
+    margin:0px;
+}
+
+div{
+    /*border: 1px solid cyan;*/
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
+
+#game, #game-overlay{
+    position: relative;
+    margin: auto;
+    width: 720px;
+    height: 450px;
+}
+
+#game{
+    z-index:1;
+}
+
+#game-overlay{
+    position:absolute;
+    z-index: 1000;
+}
+
+#top-bar{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+}
+
+#left-bar{
+    width:13px;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+}
+
+#right-bar{
+    width: 13px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;   
+    z-index: 5000;
+}
+
+.reel{
+    width: 75px;
+    height: 100%;
+    position: absolute;
+    top: -110px;
+    z-index: 100;
+}
+
+#reel-1{
+    left: 150px;
+    z-index: 100;
+}
+#reel-2{
+    left: 250px;
+}
+#reel-3{
+    left: 350px;
+}
+#reel-4{
+    left: 450px;
+}
+#reel-5{
+    left: 550px;
+}
+
+#bottom-bar{
+    width: 100%;
+    height: 138px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 5000;
+}
+
+#stats-box{
+    position: absolute;
+    z-index: 5000;
+}
+
+.button{
+    width: 122px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 5000;
+}
+
+.reel img{
+    padding:0px; 
+    margin: -40px -30px;
+    z-index: 100;
+    width: 175px;
+    height: 175px;
+}
+
+#footer{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    z-index: 6000;
+    text-align: center;
+    color: white;
+    background-color: black;
+}

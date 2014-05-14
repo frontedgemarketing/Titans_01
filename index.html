@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>KoreGame</title>
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <script src="src/common.js"></script>
+    <script src="src/setUp.js"></script>
+    <script src="src/vars.js"></script>
+    <script src="src/game.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+          
+    <script src="src/ext/CSSPlugin.min.js"></script>
+    <script src="src/ext/EasePack.min.js"></script>
+    <script src="src/ext/TweenMax.min.js"></script>
+</head>
+
+<body onLoad="setUp()">    
+<div id="wrapper">
+    <div id="game">
+    <div id="game-overlay"></div>
+        <div id="reel-1" class="reel"></div>
+        <div id="reel-2" class="reel"></div>
+        <div id="reel-3" class="reel"></div>
+        <div id="reel-4" class="reel"></div>
+        <div id="reel-5" class="reel"></div>
+
+        <div id="top-bar"></div>
+        <div id="left-bar"></div>
+        <div id="right-bar"></div>
+
+        <div id="bottom-bar">
+            <div id="stats-box"></div>
+            <div id="playdown-button" class="button"></div>
+            <div id="playup-button" class="button"></div>
+            <div id="playmax-button" class="button"></div>
+            <div id="play-button" class="button"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
